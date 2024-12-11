@@ -1,0 +1,128 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #e7d7d7;
+}
+/* Cabeçalho */
+header {
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    text-align: center;
+}
+h2 {
+    text-align: cent;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(250, 232, 232);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções principais */
+main {
+    padding: 80px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+#banner {
+    text-align: center;
+    background-color: #3a0303;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Produtos */
+#produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#produtos article {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(255, 246, 246);
+    text-align: center;
+}
+
+#produtos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#produtos button {
+    background-color: #0e0d25;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#produtos button:hover {
+    background-color: #142633;
+}
+
+/* Sobre */
+#sobre {
+    text-align: center;
+    padding: 20px;
+    background-color: #140606;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(255, 249, 249);
+}
+
+/* Rodapé */
+footer {
+    background-color: #251010;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
